@@ -1,0 +1,95 @@
+
+
+
+#toubu{ width:100%; height:161px; background:url(toubu_beijing.jpg) repeat-x}
+
+
+.lunbo_bais{ width:980px; height:384px;position:relative; z-index:2;margin-left:auto; margin-right:auto ; margin-top:6px; overflow:hidden}
+.lunbo_bais .container,.lunbo_bais .container IMG {width:980px; height:384px;overflow:hidden }
+
+.lunbo_bais ul.slides {position:absolute; padding:0px; margin:0px; top:0px; left:0px}
+
+.lunbo_bais ul.pagination {POSITION: absolute;  bottom:23px; left:19px; height:20px; overflow:hidden}
+.lunbo_bais ul.pagination li {width: 20px; float: left; height:20px; margin-right:7px }
+.lunbo_bais ul.pagination li a {width: 20px;  height: 20px;background:url(chunbai_yuan.png) no-repeat; display:block;  }
+.lunbo_bais ul.pagination li.active a {background:url(zhonghuang_yuan.png) no-repeat;}
+
+
+
+.remenchanpin{ width:980px; background:url(lb_xian_yinying.jpg) no-repeat; margin:0px auto; height:auto }
+.remen_chanpin_bt{ margin-top:32px}
+#menu1{ width:48px; height:23px; overflow:hidden; margin-top:32px; display:none; }
+#menu1 li{ float:left; width:23px; height:23px; margin-right:1px; background:url(hot_hui.jpg) no-repeat; cursor:pointer;  font-size:10px; color:#2a2a2a; text-align:center; line-height:22px}
+#menu1 li.hovers{ background:url(hot_huang.jpg) no-repeat;color:#FFFFFF}
+
+#main1{ width:978px; border:#f0f0f0 solid 1px; padding-bottom:20px; padding-top:23px; margin-top:12px}
+#main1 ul{display: none;}
+#main1 ul.block{ display: block;}
+.hot_geti{ width:217px; background:#f3f3f3; overflow:hidden; float:left;  margin-left:22px; display:inline;}
+.hot_cp_01{ width:217px; height:141px; overflow:hidden}
+.hot_cp_biaoti{ width:190px; margin-left:auto; margin-right:auto; overflow:hidden; padding-top:9px; padding-bottom:9px}
+.hot_P{ margin:0px; width:190px; margin-left:auto; margin-right:auto; height:88px; overflow:hidden}
+.hot_click{ width:155px; background:url(hot_click.jpg) no-repeat; height:31px; margin-left:auto; margin-right:auto; line-height:31px; text-align:center; margin-bottom:10px; margin-top:12px}
+.hot_click a,.fangshi_dianji a{ display:block}
+
+
+
+
+
+.menu2{ width:980px;border-bottom:#191919 dotted 1px; font-size:14px; background:url(youqinglj_bj.jpg) repeat-x top; padding-bottom:12px; padding-top:16px}
+.menu2 li{ float:left; color:#343434;padding-left:8px; padding-right:8px;  cursor:pointer; font-weight:bold}
+.menu2 li.hovers{ color:#de5f00}
+#links{ border-right:#000 solid 1px; padding-left:0px}
+#main2 ul{display: none; }
+#main2 ul.block{ display: block;}
+#main2{overflow:hidden; width:980px; padding-top:10px; padding-bottom:10px; font-size:12px; clear:both }
+
+.lianjie_youqing{ float:left;  margin-right:35px; height:25px; line-height:25px}
+
+
+
+
+.shouye_youce{ width:280px; overflow:hidden}
+.shouye_newstu{ width:255px; border:#f0f0f0 solid 1px; height:160px; padding:10px 12px 11px 10px}
+.shou_xinwen_q2{ width:270px; overflow:hidden}
+.shou_xinwen_q2 li{ margin:0px; padding:0px; border-bottom:#474747 dashed 1px; padding-bottom:12px; padding-top:12px}
+.lianxi_fanshi{ margin:0px; width:240px; overflow:hidden}
+.fangshi_dianji{width:155px; background:url(hot_click.jpg) no-repeat; height:31px;line-height:31px; text-align:center; margin-top:12px}
+
+
+
+.shouye_zuoce{ width:678px;border:#f0f0f0 solid 1px; overflow:hidden}
+.shy_gsjs,.shy_gongchangjs{ background:#f9f9f9; width:647px; overflow:hidden; margin-left:auto; margin-right:auto; }
+.shy_gsjs,{margin-top:15px}
+.gongsijies_t{ margin-right:19px; margin-top:24px; width:220px; height:130px}
+.jianjie_360{ width:360px; overflow: hidden; margin-left:22px; display:inline}
+.jianjie_biaoti{ margin-top:20px}
+.lin10{ margin:0px; line-height:20px}
+.jieshao_gs_p{ margin:0px; line-height:20px}
+.xuxian_617{ width:617px; overflow:hidden; margin-left:auto; margin-right:auto; margin-top:21px; margin-bottom:17px}
+.huise_xuxian{ border-bottom:#191919 dashed 1px}
+.gongc_biaoti{ margin-left:16px; width:300px; }
+
+
+
+
+.zhanshi_tup{  width:610px;overflow:hidden; margin-top:20px; margin-bottom:1px ; margin-left:auto; margin-right:auto }
+.zhanshi_tup .LeftBotton { width:21px; height:41px; float:left;background:url(xiangzuo.jpg) no-repeat; margin-top:75px }
+.zhanshi_tup .RightBotton { width:21px; height:41px; float:right;background:url(xiangyou.jpg) no-repeat;margin-top:75px;}
+
+
+
+.zhanshi_tup .pcont { width:546px; float:left; overflow:hidden; margin-left:11px; margin-right:11px;  }
+.zhanshi_tup .ScrCont { width:32766px; zoom:1; }
+.zhanshi_tup #List1_1, .zhanshi_tup #List2_1 { float:left; margin:0px; padding:0px }
+.zhanshi_tup ul{ list-style:none}
+
+.zhanshi_tup .pl{ width:265px; height:205px; float:left;display:inline; margin-right:15px}
+
+/*.zhanshi_tup .pl img{ width:172px; height:130px}*/
+.zhanshi_tup .pl img{ width:265px; height:203px}
+
+
+
+
+

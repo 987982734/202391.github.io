@@ -1,0 +1,213 @@
+// JScript 文件
+//菜单展示
+$(function(){   
+            $("#firstpane div.menu_head").click(function()   
+            {   
+                $(this).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");      
+            });   
+            $("#firstpane div.menu_head").mouseover(function()   
+            {   
+            });   
+            $("#firstpane div.menu_head").mouseout(function()   
+            {   
+            });  
+        })
+		
+//得到光标，输入说明消失     
+function setNull(x)
+{if(x=="lname" && document.getElementById(x).value=="Search Product Here......"){
+document.getElementById(x).value="";
+document.getElementById(x).style.color="#6e6e6e"}
+if(x=="lname1" && document.getElementById(x).value=="Company Name"){
+document.getElementById(x).value="";
+document.getElementById(x).style.color="#6e6e6e"
+}
+if(x=="lname2" && document.getElementById(x).value=="Contact Person"){
+document.getElementById(x).value="";
+document.getElementById(x).style.color="#6e6e6e"
+}
+if(x=="lname3" && document.getElementById(x).value=="Email"){
+document.getElementById(x).value="";
+document.getElementById(x).style.color="#6e6e6e"
+}
+
+}
+
+//得到光标，输入说明消失     
+function setNull1(x)
+{
+if(x=="Company" && document.getElementById(x).value=="Company Name"){
+document.getElementById(x).value="";
+document.getElementById(x).style.color="#6e6e6e"
+}
+if(x=="Person" && document.getElementById(x).value=="Contact Person"){
+document.getElementById(x).value="";
+document.getElementById(x).style.color="#6e6e6e"
+}
+if(x=="Email" && document.getElementById(x).value=="Email"){
+document.getElementById(x).value="";
+document.getElementById(x).style.color="#6e6e6e"
+}
+
+}
+//失去光标，显示输入说明
+//lname为搜索框id
+//lname1为Company Name
+//lname2为Contact Person
+//lname3为Email
+function setThing1(x)
+{ 
+if(x=="Company"  && document.getElementById(x).value==""){
+document.getElementById(x).value="Company Name";
+document.getElementById(x).style.color="#6e6e6e"}
+if(x=="Person" && document.getElementById(x).value==""){
+document.getElementById(x).value="Contact Person";
+document.getElementById(x).style.color="#6e6e6e"}
+if(x=="Email" && document.getElementById(x).value==""){
+document.getElementById(x).value="Email";
+document.getElementById(x).style.color="#6e6e6e"}
+
+}
+
+//按回车键，执行标签id为search1的onclick事件
+function Query2()
+    { 
+        if(event.keyCode ==13) 
+        {    
+            document.getElementById("search1").click(); 
+            event.returnValue = false; 
+        } 
+    }
+//search1的onclick事件
+function search1_onclick() {
+    var name = document.getElementById("lname").value;
+    
+    if(name != "" && name != null)
+    {
+        window.location.href="index.php?m=search&keyword="+name;
+    }
+}
+
+
+
+function showhidediv(id){
+
+var ajax2=document.getElementById("ajax2");
+var ajax1=document.getElementById("ajax1");
+var ajax3=document.getElementById("ajax3");
+var ajax4=document.getElementById("ajax4");
+
+
+if (id == 'ajax1') 
+{
+   if (ajax1.style.display=='none') 
+   {
+    ajax2.style.display='none';
+    ajax1.style.display='block';
+   }
+}   
+
+if (id == 'ajax2') 
+{
+   if (ajax2.style.display=='none') 
+   {
+    ajax2.style.display='block'
+    ajax1.style.display='none';
+   }
+} 
+if (id == 'ajax3') 
+{
+   if (ajax3.style.display=='none') 
+   {
+    ajax3.style.display='block'
+    ajax4.style.display='none';
+   }
+} 
+if (id == 'ajax4') 
+{
+   if (ajax4.style.display=='none') 
+   {
+    ajax4.style.display='block'
+    ajax3.style.display='none';
+   }
+} 
+}
+
+
+function showhidediv1(id){
+var ajax1=document.getElementById("ajax1");
+var ajax2=document.getElementById("ajax2");
+var ajax3=document.getElementById("ajax3");
+
+
+if (id == 'ajax1') 
+{
+   if (ajax1.style.display=='none') 
+   {
+	ajax3.style.display='none';
+    ajax2.style.display='none';
+    ajax1.style.display='block';
+   }
+}   
+
+if (id == 'ajax2') 
+{
+   if (ajax2.style.display=='none') 
+   {
+    ajax2.style.display='block'
+    ajax1.style.display='none';
+	ajax3.style.display='none';
+   }
+} 
+if (id == 'ajax3') 
+{
+   if (ajax3.style.display=='none') 
+   {
+    ajax3.style.display='block'
+    ajax2.style.display='none';
+    ajax1.style.display='none';
+   }
+} 
+
+}
+
+
+function showhidediv2(id){
+var ajax1=document.getElementById("ajax5");
+var ajax2=document.getElementById("ajax6");
+var ajax3=document.getElementById("ajax7");
+
+
+if (id == 'ajax5') 
+{
+   if (ajax5.style.display=='none') 
+   {
+	ajax7.style.display='none';
+    ajax6.style.display='none';
+    ajax5.style.display='block';
+   }
+}   
+
+if (id == 'ajax6') 
+{
+   if (ajax6.style.display=='none') 
+   {
+    ajax6.style.display='block'
+    ajax5.style.display='none';
+	ajax7.style.display='none';
+   }
+} 
+if (id == 'ajax7') 
+{
+   if (ajax7.style.display=='none') 
+   {
+    ajax7.style.display='block'
+    ajax6.style.display='none';
+    ajax5.style.display='none';
+   }
+} 
+
+}
+
+
+

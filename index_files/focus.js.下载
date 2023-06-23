@@ -1,0 +1,10 @@
+	$(function(){
+		 $('#lunbo_bais').loopedSlider({
+			//4秒						   
+		 	autoStart: 8000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 8000
+			});
+
+	});
